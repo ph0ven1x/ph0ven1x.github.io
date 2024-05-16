@@ -3,7 +3,7 @@
     "title": "日拱一卒 功不唐捐",
     "subtitle": "",
     "icon": "https://ph0ven1x.github.io/assets/favicon.ico",
-    "description": "渗透 || 红队",
+    "description": "热爱生活，热爱安全",
     "home_page_url": "https://ph0ven1x.github.io",
     "items": [
         {
@@ -15,8 +15,8 @@
             "tags": [
                 "Web安全",
                 "靶场渗透",
-                "Web安全",
                 "打靶",
+                "Web安全",
                 "DVWA"
             ]
         },
@@ -29,8 +29,8 @@
             "tags": [
                 "红队",
                 "靶场渗透",
-                "打靶",
                 "红队",
+                "打靶",
                 "Vulhub"
             ]
         }
