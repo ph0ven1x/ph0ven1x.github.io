@@ -220,7 +220,6 @@ FLUSH PRIVILEGES;
 &lt;p&gt;可以使用 msf 进行爆破，爆破模块 &lt;code&gt;auxiliary/scanner/mongodb/mongodb_login&lt;/code&gt;&lt;/p&gt;
 </content>
         <category term="Web安全" scheme="https://ph0ven1x.github.io/categories/Web%E5%AE%89%E5%85%A8/" />
-        <category term="知识沉淀" scheme="https://ph0ven1x.github.io/categories/Web%E5%AE%89%E5%85%A8/%E7%9F%A5%E8%AF%86%E6%B2%89%E6%B7%80/" />
         <category term="Web安全" scheme="https://ph0ven1x.github.io/tags/Web%E5%AE%89%E5%85%A8/" />
         <category term="暴力破解" scheme="https://ph0ven1x.github.io/tags/%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3/" />
         <updated>2024-07-09T15:57:11.000Z</updated>
@@ -339,8 +338,8 @@ FLUSH PRIVILEGES;
 &lt;p&gt;上传成功，获得 flag&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20240708231753273.png&#34; alt=&#34;image-20240708231753273&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="Web安全" scheme="https://ph0ven1x.github.io/categories/Web%E5%AE%89%E5%85%A8/" />
-        <category term="基础靶场" scheme="https://ph0ven1x.github.io/categories/Web%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E9%9D%B6%E5%9C%BA/" />
+        <category term="靶场" scheme="https://ph0ven1x.github.io/categories/%E9%9D%B6%E5%9C%BA/" />
+        <category term="基础靶场" scheme="https://ph0ven1x.github.io/categories/%E9%9D%B6%E5%9C%BA/%E5%9F%BA%E7%A1%80%E9%9D%B6%E5%9C%BA/" />
         <category term="Web安全" scheme="https://ph0ven1x.github.io/tags/Web%E5%AE%89%E5%85%A8/" />
         <category term="打靶" scheme="https://ph0ven1x.github.io/tags/%E6%89%93%E9%9D%B6/" />
         <category term="文件上传" scheme="https://ph0ven1x.github.io/tags/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/" />
@@ -510,8 +509,8 @@ FLUSH PRIVILEGES;
 &lt;/ul&gt;
 &lt;p&gt;未完待续...&lt;/p&gt;
 </content>
-        <category term="Web安全" scheme="https://ph0ven1x.github.io/categories/Web%E5%AE%89%E5%85%A8/" />
-        <category term="基础靶场" scheme="https://ph0ven1x.github.io/categories/Web%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E9%9D%B6%E5%9C%BA/" />
+        <category term="靶场" scheme="https://ph0ven1x.github.io/categories/%E9%9D%B6%E5%9C%BA/" />
+        <category term="基础靶场" scheme="https://ph0ven1x.github.io/categories/%E9%9D%B6%E5%9C%BA/%E5%9F%BA%E7%A1%80%E9%9D%B6%E5%9C%BA/" />
         <category term="Web安全" scheme="https://ph0ven1x.github.io/tags/Web%E5%AE%89%E5%85%A8/" />
         <category term="打靶" scheme="https://ph0ven1x.github.io/tags/%E6%89%93%E9%9D%B6/" />
         <category term="DVWA" scheme="https://ph0ven1x.github.io/tags/DVWA/" />
@@ -760,10 +759,9 @@ Remember, since security by obscurity is very effective, we have configured our 
 &lt;p&gt;&lt;code&gt;-s &amp;lt;port&amp;gt; &amp;lt;server&amp;gt;&lt;/code&gt;  后面跟对应端口服务&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;-vV&lt;/code&gt;  显示每次匹配时的详细信息&lt;/p&gt;
 </content>
-        <category term="红队" scheme="https://ph0ven1x.github.io/categories/%E7%BA%A2%E9%98%9F/" />
-        <category term="Vulnhub靶场" scheme="https://ph0ven1x.github.io/categories/%E7%BA%A2%E9%98%9F/Vulnhub%E9%9D%B6%E5%9C%BA/" />
+        <category term="靶场" scheme="https://ph0ven1x.github.io/categories/%E9%9D%B6%E5%9C%BA/" />
+        <category term="Vulnhub靶场" scheme="https://ph0ven1x.github.io/categories/%E9%9D%B6%E5%9C%BA/Vulnhub%E9%9D%B6%E5%9C%BA/" />
         <category term="打靶" scheme="https://ph0ven1x.github.io/tags/%E6%89%93%E9%9D%B6/" />
-        <category term="红队" scheme="https://ph0ven1x.github.io/tags/%E7%BA%A2%E9%98%9F/" />
         <category term="Vulnhub" scheme="https://ph0ven1x.github.io/tags/Vulnhub/" />
         <updated>2024-05-15T02:25:11.000Z</updated>
     </entry>
