@@ -10,8 +10,53 @@
         </author>
         <description>热爱技术，热爱生活</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 26 Aug 2024 21:39:12 +0800</pubDate>
-        <lastBuildDate>Mon, 26 Aug 2024 21:39:12 +0800</lastBuildDate>
+        <pubDate>Tue, 27 Aug 2024 18:15:32 +0800</pubDate>
+        <lastBuildDate>Tue, 27 Aug 2024 18:15:32 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://ph0ven1x.github.io/2024/08/27/%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92%E6%A0%B7%E6%9C%AC%E5%AE%9E%E9%AA%8C/</guid>
+            <title>勒索病毒样本实验</title>
+            <link>https://ph0ven1x.github.io/2024/08/27/%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92%E6%A0%B7%E6%9C%AC%E5%AE%9E%E9%AA%8C/</link>
+            <category term="应急响应" scheme="https://ph0ven1x.github.io/categories/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94/" />
+            <category term="应急响应" scheme="https://ph0ven1x.github.io/tags/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94/" />
+            <pubDate>Tue, 27 Aug 2024 18:15:32 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;勒索病毒样本实验&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#勒索病毒样本实验&#34;&gt;#&lt;/a&gt; 勒索病毒样本实验&lt;/h1&gt;
+&lt;h2 id=&#34;什么是勒索病毒&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是勒索病毒&#34;&gt;#&lt;/a&gt; 什么是勒索病毒&lt;/h2&gt;
+&lt;p&gt;勒索病毒是一种特殊的恶意软件，又被人归类为 “阻断访问式攻击”（denial-of-access attack），其与其他病毒最大的不同在于手法以及中毒方式。其中一种勒索软件仅是单纯地将受害者的电脑锁起来，而另一种则系统性地加密受害者硬盘上的文件。所有的勒索软件都会要求受害者缴纳赎金以取回对电脑的控制权，或是取回受害者根本无从自行获取的解密密钥以便解密档案。勒索软件通常透过木马病毒的形式传播，将自身为掩盖为看似无害的文件，通常会通过假冒成普通的电子邮件等社交工程方法欺骗受害者点击链接下载。&lt;/p&gt;
+&lt;h2 id=&#34;如果中了勒索病毒怎么办&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如果中了勒索病毒怎么办&#34;&gt;#&lt;/a&gt; 如果中了勒索病毒怎么办？&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;先要清楚是哪个族的勒索病毒，不同族的勒索病毒在加密文件后会有不同的扩展名，可以在一些平台检测出是哪一族的勒索病毒。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://habo.qq.com/&#34;&gt;https://habo.qq.com/&lt;/a&gt; 腾讯哈勃&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lesuobingdu.360.cn/&#34;&gt;https://lesuobingdu.360.cn/&lt;/a&gt; 360 勒索病毒解密&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lesuobingdu.qianxin.com/&#34;&gt;https://lesuobingdu.qianxin.com/&lt;/a&gt; 奇安信勒索病毒搜索引擎&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/SexyBeast233/SecBooks/blob/main/%E3%80%90%E5%B7%A5%E5%85%B7%E6%96%87%E7%AB%A0%E3%80%91tools/%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92%E8%AF%86%E5%88%AB%E3%80%81%E8%A7%A3%E5%AF%86%E5%B7%A5%E5%85%B7%E6%B1%87%E6%80%BB%EF%BC%88%E9%99%84%E9%83%A8%E5%88%86%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%EF%BC%89.md&#34;&gt;勒索病毒解密工具汇总&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;根据分析平台提供的解密程序进行文件解密，解密完重要文件以后，将重要文件备份好再重装系统&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;有的加密是解不出来的，只能求助大佬或者重装系统了&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;wannacry勒索病毒&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#wannacry勒索病毒&#34;&gt;#&lt;/a&gt; WannaCry 勒索病毒&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;WannaCry&lt;/strong&gt; 是一种利用&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%AE%89%E5%85%A8%E5%B1%80&#34;&gt; NSA&lt;/a&gt; 的 “&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E6%B0%B8%E6%81%92%E4%B9%8B%E8%93%9D&#34;&gt;永恒之蓝&lt;/a&gt;”（EternalBlue）(&lt;strong&gt;ms17-010&lt;/strong&gt;)。漏洞利用程序透过互联网对全球运行 Microsoft Windows 操作系统的计算机进行攻击的加密型勒索软件兼&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E9%9B%BB%E8%85%A6%E8%A0%95%E8%9F%B2&#34;&gt;蠕虫病毒&lt;/a&gt;（Encrypting Ransomware Worm）。该病毒利用&lt;a href=&#34;https://zh.wikipedia.org/wiki/AES-128&#34;&gt; AES-128&lt;/a&gt; 和&lt;a href=&#34;https://zh.wikipedia.org/wiki/RSA%E5%8A%A0%E5%AF%86%E6%BC%94%E7%AE%97%E6%B3%95&#34;&gt; RSA 算法&lt;/a&gt;恶意加密用户文件以勒索比特币，使用 Tor 进行通讯，为 WanaCrypt0r 1.0 的变种。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20240827170623820.png&#34; alt=&#34;image-20240827170623820&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;dic.txt 被加密成 dic.txt.WNCRY&lt;/p&gt;
+&lt;p&gt;可以在奇安信病毒搜索引擎搜索 WNCRY 后缀，可以下载解密程序试试&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20240827171209975.png&#34; alt=&#34;image-20240827171209975&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;试了几个解密程序都解不出来....&lt;/p&gt;
+&lt;p&gt;这种加密是不可逆的，网上的一些解密文章其实也是从病毒设计的一些漏洞作为切入点去解密的，安全之路道阻且长啊，要学的东西还有很多，本菜鸟仍需继续努力。&lt;/p&gt;
+&lt;p&gt;有一些勒索病毒是可以解开的，像 Satan，他毒性就比较弱，可以解开：&lt;a href=&#34;https://it.rising.com.cn/dongtai/19385.html&#34;&gt;https://it.rising.com.cn/dongtai/19385.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;所以对于这种勒索病毒，一定是要做好预防工作，对于一些钓鱼文件和恶意软件都要谨慎一点，而且一定要做好重要文件备份。&lt;/p&gt;
+&lt;p&gt;这里也体现出像 EDR、SIEM、SOAR、XDR 的重要性，他们共同协助，构成网络安全的坚实防线。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;EDR：专注于终端层面的威胁检测与响应&lt;/li&gt;
+&lt;li&gt;SIEM：提供全局的安全信息和事件管理&lt;/li&gt;
+&lt;li&gt;SOAR：通过自动化提高响应效率&lt;/li&gt;
+&lt;li&gt;XDR：整合所有力量，提供跨平台的全面安全防护&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://ph0ven1x.github.io/2024/08/26/%E5%AE%89%E5%85%A8%E8%AE%BE%E5%A4%87EDR/</guid>
             <title>安全设备EDR</title>
@@ -477,8 +522,8 @@ FLUSH PRIVILEGES;
             <link>https://ph0ven1x.github.io/2024/05/16/DVWA%E5%85%A8%E7%BA%A7%E5%88%AB%E9%80%9A%E5%85%B3/</link>
             <category term="靶场" scheme="https://ph0ven1x.github.io/categories/%E9%9D%B6%E5%9C%BA/" />
             <category term="基础靶场" scheme="https://ph0ven1x.github.io/categories/%E9%9D%B6%E5%9C%BA/%E5%9F%BA%E7%A1%80%E9%9D%B6%E5%9C%BA/" />
-            <category term="Web安全" scheme="https://ph0ven1x.github.io/tags/Web%E5%AE%89%E5%85%A8/" />
             <category term="打靶" scheme="https://ph0ven1x.github.io/tags/%E6%89%93%E9%9D%B6/" />
+            <category term="Web安全" scheme="https://ph0ven1x.github.io/tags/Web%E5%AE%89%E5%85%A8/" />
             <category term="DVWA" scheme="https://ph0ven1x.github.io/tags/DVWA/" />
             <pubDate>Thu, 16 May 2024 15:06:49 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;dvwa全级别通关&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#dvwa全级别通关&#34;&gt;#&lt;/a&gt; DVWA 全级别通关&lt;/h1&gt;
